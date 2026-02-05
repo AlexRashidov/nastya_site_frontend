@@ -11,6 +11,8 @@ export default defineConfig({
         },
     },
     build: {
-        target: 'es2018', // 🔥 КРИТИЧНО ДЛЯ iOS
+        target: ['es2017'], // ⬅️ КЛЮЧЕВО
+        cssTarget: 'chrome61',
+        sourcemap: false,
     },
 })
