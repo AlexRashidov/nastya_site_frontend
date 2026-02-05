@@ -6,7 +6,7 @@
   <section id="about">
     <div class="about-container">
       <div class="about-image">
-        <img src="/src/assets/img/Anastasia.jpg" alt="Профессиональный кинолог Анастасия Конопленко">
+        <img src="/Anastasia.jpg" alt="Профессиональный кинолог Анастасия Конопленко">
       </div>
 
       <div class="about-content">

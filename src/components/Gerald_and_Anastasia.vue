@@ -6,7 +6,7 @@
   <section id="my_exp">
     <div class="about-container">
       <div class="about-image">
-        <img src="/src/assets/img/gerald_and_anastasia.jpg" alt="Анастасия">
+        <img src="/gerald_and_anastasia.jpg" alt="Анастасия">
       </div>
 
       <div class="about-content">

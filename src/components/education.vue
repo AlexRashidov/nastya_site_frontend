@@ -7,8 +7,8 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 // Массив дипломов
 const diplomas = [
-  { src: '/src/assets/img/diploma1.png', alt: 'Диплом 1' },
-  { src: '/src/assets/img/diploma2.png', alt: 'Диплом 2' },
+  { src: '/diploma1.png', alt: 'Диплом 1' },
+  { src: '/diploma2.png', alt: 'Диплом 2' },
 ];
 </script>
 
