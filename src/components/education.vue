@@ -7,8 +7,8 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 // Массив дипломов
 const diplomas = [
-  { src: '/diploma1.png', alt: 'Диплом 1' },
-  { src: '/diploma2.png', alt: 'Диплом 2' },
+  { src: 'https://kinolog-anastasia.netlify.app/diploma1.png', alt: 'Диплом 1' },
+  { src: 'https://kinolog-anastasia.netlify.app/diploma2.png', alt: 'Диплом 2' },
 ];
 </script>
 
