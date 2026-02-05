@@ -38,7 +38,7 @@ const routes = [
     {
       name: 'feedback',
       path: '/feedback',
-      component: () => import('@/components/Feedback.vue'),
+      component: () => import('@/components/feedback.vue'),
     },
     {
         name: 'contacts',
