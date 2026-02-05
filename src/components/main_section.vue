@@ -9,7 +9,7 @@
       <div class="left_part">
         <div class="img_container">
           <img
-              src="https://kinolog-anastasia.netlify.app/main_section.jpg"
+              src="https://nastya-site-frontend.vercel.app/main_section.jpg"
               alt="Анастасия и Геральд"
               class="main-image"
           >
@@ -51,11 +51,11 @@
           <!-- Контактная информация -->
           <div class="contact-info">
             <div class="contact-item">
-              <span class="contact-icon"><img src="https://kinolog-anastasia.netlify.app/phone_icon.png"></span>
+              <span class="contact-icon"><img src="https://nastya-site-frontend.vercel.app/phone_icon.png"></span>
               <span>+7 (923) 004-18-97</span>
             </div>
             <div class="contact-item">
-              <span class="contact-icon"><img src="https://kinolog-anastasia.netlify.app/gmail_icon.png"></span>
+              <span class="contact-icon"><img src="https://nastya-site-frontend.vercel.app/gmail_icon.png"></span>
               <span>nastya.min.05@list.ru</span>
             </div>
           </div>

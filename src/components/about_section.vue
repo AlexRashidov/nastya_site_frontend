@@ -6,7 +6,7 @@
   <section id="about">
     <div class="about-container">
       <div class="about-image">
-        <img src="https://kinolog-anastasia.netlify.app/Anastasia.jpg" alt="Профессиональный кинолог Анастасия Конопленко">
+        <img src="https://nastya-site-frontend.vercel.app/Anastasia.jpg" alt="Профессиональный кинолог Анастасия Конопленко">
       </div>
 
       <div class="about-content">

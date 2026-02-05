@@ -6,7 +6,7 @@
   <section id="my_exp">
     <div class="about-container">
       <div class="about-image">
-        <img src="https://kinolog-anastasia.netlify.app/gerald_and_anastasia.jpg" alt="Анастасия">
+        <img src="https://nastya-site-frontend.vercel.app/gerald_and_anastasia.jpg" alt="Анастасия">
       </div>
 
       <div class="about-content">
