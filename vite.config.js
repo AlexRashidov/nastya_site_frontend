@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 
-// ❗ УБРАЛ vue-devtools — он ломает prod на iOS
 export default defineConfig({
     base: '/',
     plugins: [vue()],
@@ -10,5 +9,8 @@ export default defineConfig({
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url)),
         },
+    },
+    build: {
+        target: 'es2018', // 🔥 КРИТИЧНО ДЛЯ iOS
     },
 })
