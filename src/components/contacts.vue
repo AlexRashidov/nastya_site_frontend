@@ -9,7 +9,7 @@ const form = reactive({
 const submitForm = async () => {
   console.log("Данные формы: " , form)
   try {
-    await fetch('http://localhost:3000/form', {
+    await fetch('https://nastya-site-backend.onrender.com/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

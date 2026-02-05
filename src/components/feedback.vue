@@ -91,7 +91,7 @@ const submitReview = async () => {
       rating: form.value.rating,
     };
 
-    const res = await fetch("http://localhost:3000/reviews", {
+    const res = await fetch("https://nastya-site-backend.onrender.com/reviews", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
@@ -127,7 +127,7 @@ const options = {
 
 const fetchReviews = async () => {
   try{
-    const res = await fetch(`http://localhost:3000/reviews`);
+    const res = await fetch(`https://nastya-site-backend.onrender.com/reviews`);
     const data = await res.json();
     reviews.value = data.map(review => ({
       ...review,
