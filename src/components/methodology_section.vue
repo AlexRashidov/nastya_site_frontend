@@ -22,7 +22,7 @@
         <div class="principle">
           <div class="principle-icon icon-family"></div>
           <h3>Доступно</h3>
-          <p>Объяснение всех аспктов простом языком</p>
+          <p>Объяснение всех аспектов простым языком</p>
         </div>
       </div>
 

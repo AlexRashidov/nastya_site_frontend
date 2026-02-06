@@ -129,9 +129,11 @@ const fetchReviews = async () => {
   try{
     const res = await fetch(`https://nastya-site-backend.onrender.com/reviews`);
     const data = await res.json();
-    reviews.value = data.map(review => ({
-      ...review,
-    }));
+    data.forEach((review) => {
+      if (!reviews.value.some(r => r.id === review.id)) {
+        reviews.value.unshift(review);
+    }
+    });
   } catch (error) {
     console.error("Ошибка загрузки отзывов:", error);
   }
