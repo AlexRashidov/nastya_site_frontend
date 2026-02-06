@@ -258,7 +258,7 @@ const submitForm = async () => {
   }
 
   .contact-form {
-    padding: 30px 20px;
+    padding: 25px 15px;
   }
 
   .contact-form h2 {
@@ -269,6 +269,7 @@ const submitForm = async () => {
   .contact-form textarea {
     padding: 12px 15px;
     font-size: 1rem;
+    max-width: 90%;
   }
 
   .contact-form button {
@@ -278,7 +279,7 @@ const submitForm = async () => {
 
   .first {
     font-size: 20px;
-    max-height: 70px;
+    max-height: 80px;
   }
 
   .contact-info h3 {
@@ -288,6 +289,7 @@ const submitForm = async () => {
   .contact-details p {
     font-size: 1rem;
     padding-left: 25px;
+
   }
 
   .social-links {
@@ -315,11 +317,13 @@ const submitForm = async () => {
   .contact-form button {
     padding: 3px 3px;
     font-size: 0.9rem;
+    max-width: 90%;
+
   }
 
   .first {
     font-size: 18px;
-    max-height: 65px;
+    max-height: 80px;
   }
 
   .contact-info h3 {
@@ -327,7 +331,7 @@ const submitForm = async () => {
   }
 
   .contact-details p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding-left: 20px;
   }
 

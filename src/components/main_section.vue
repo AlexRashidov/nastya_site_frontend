@@ -80,11 +80,12 @@
   align-items: center;
   margin: 0;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #f9f5f0 0%, #f0e6d6 100%);
   padding:0 ;
+  box-sizing: border-box;
 }
 
 .container {
@@ -97,6 +98,7 @@
   width: 100%;
   position: relative;
   z-index: 2;
+  padding: 0 1rem;
 }
 
 /* Левая часть с изображением */
@@ -334,11 +336,14 @@
   .container {
     flex-direction: column;
     gap: 2.5rem;
+    align-items: center;
   }
 
   .left_part, .right_part {
     justify-content: center;
     text-align: center;
+    flex:none;
+    width: 100%;
   }
 
   .main-title {
@@ -355,6 +360,7 @@
   .img_container {
     max-width: 80%;
     transform: none;
+    margin: 0 auto;
   }
 }
 
