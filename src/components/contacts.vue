@@ -39,11 +39,11 @@ const submitForm = async () => {
       <div class="contact-form">
         <h2>Записаться на консультацию</h2>
 
-        <form>
+        <form @submit.prevent="submitForm">
           <input type="text" placeholder="Ваше имя" v-model="form.name" required>
           <input type="tel" placeholder="Телефон" v-model="form.phone" required>
           <textarea placeholder="Опишите вашу ситуацию" v-model="form.message"></textarea>
-          <button type="submit" @click="submitForm">Отправить заявку</button>
+          <button type="submit" >Отправить заявку</button>
         </form>
       </div>
       <div class="right_part">
