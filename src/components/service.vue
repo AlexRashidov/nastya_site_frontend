@@ -97,6 +97,9 @@
   font-family: 'Georgia', serif;
   max-width: 1200px;
   margin: 60px auto 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-right: 35px;
 
 }
 .service-card {
